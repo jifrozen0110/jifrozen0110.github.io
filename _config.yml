@@ -38,3 +38,5 @@ defaults:
 # 코드 하이라이트
 highlighter: rouge
 markdown: kramdown
+seo:
+  type: 'Blog'

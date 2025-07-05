@@ -2,7 +2,6 @@ title: '무궁무진'
 description: '생각을 현실로 이루기 위헤 노력합니다'
 url: 'https://jifrozen0110.github.io'
 baseurl: ''
-theme: minimal-mistakes-jekyll
 
 author:
   name: 'jifrozen0110'
@@ -19,8 +18,11 @@ social:
 #   disqus:
 #     shortname: "your-disqus-id"
 
+remote_theme: 'mmistakes/minimal-mistakes'
 # Build settings
 plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag

@@ -1,3 +1,38 @@
-title: 내 깃허브 블로그
-description: GitHub Pages + Jekyll
-theme: minima
+title: '무궁무진'
+description: '생각을 현실로 이루기 위헤 노력합니다'
+url: 'https://jifrozen0110.github.io'
+baseurl: ''
+theme: minimal-mistakes-jekyll
+
+author:
+  name: 'jifrozen0110'
+  bio: '*^^*'
+  location: 'Seoul, Korea'
+
+# 소셜 링크 예시
+social:
+  github: jifrozen0110
+
+# 댓글, 분석기 예시
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: "your-disqus-id"
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation (위 메뉴)
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: single
+      author_profile: true
+
+# 코드 하이라이트
+highlighter: rouge
+markdown: kramdown
